@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <% if current_voter %>
+  <%= link_to "Vote for #{@candidate.name}", :action => 'vote_up_voter' %>
+  <% elsif current_admin %>
+  <%= link_to "Vote for #{@candidate.name}", :action => 'vote_up_admin', :id => @candidate.id %>
+  <% end %>
+</p>
+
+
+<%= link_to 'Edit', edit_candidate_path(@candidate) %> 
+<%= link_to 'Back', candidates_path %>

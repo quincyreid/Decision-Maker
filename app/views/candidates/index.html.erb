@@ -1,0 +1,37 @@
+<h1>Listing Candidates</h1>
+
+<table>
+  <tr>
+    <th>Candidate</th>
+    <th>Amount of Votes</th>
+    <th>Percentage of Votes</th>
+    <th></th>
+  </tr>
+
+<% @candidates.each do |candidate| %>
+  <tr>
+    <td><%= candidate.name %></td>
+    <td><%= candidate.votes_for %></td>
+    
+    <% if voter_signed_in? or admin_signed_in? %>
+      <td><%= link_to('Vote', candidate_path(candidate)) %></td>
+    <% end %>
+    <% if admin_signed_in? %>
+      <td><%= link_to 'Edit', edit_candidate_path(candidate) %></td>
+      <td><%= link_to 'Destroy', candidate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
+    
+    
+  </tr>
+<% end %>
+</table>
+  
+ 
+ 
+<br />
+<div id="admin_nav">
+   <% if admin_signed_in? %>
+     <br /><%= link_to 'New Candidate', new_candidate_path %>
+     
+   <% end %>
+ </div>
