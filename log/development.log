@@ -17835,3 +17835,694 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-28 23:21:43 -0400
 Served asset /application.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:08:26 -0400
+
+SyntaxError (/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/application_helper.rb:4: invalid multibyte char (US-ASCII)
+/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/application_helper.rb:4: syntax error, unexpected $end
+            ((((Vote.find_all_...
+     ^):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/candidates_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:10:59 -0400
+
+SyntaxError (/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/application_helper.rb:5: syntax error, unexpected keyword_end, expecting ')'):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/candidates_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:11:57 -0400
+
+SyntaxError (/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/application_helper.rb:5: syntax error, unexpected keyword_end, expecting ')'):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/candidates_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:12:17 -0400
+
+SyntaxError (/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/application_helper.rb:5: syntax error, unexpected keyword_end, expecting ')'):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/candidates_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:14:02 -0400
+
+SyntaxError (/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/application_helper.rb:5: syntax error, unexpected keyword_end, expecting ')'):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/candidates_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:14:11 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.9ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  Rendered candidates/index.html.erb within layouts/application (55.1ms)
+Completed 500 Internal Server Error in 119ms
+
+ActionView::Template::Error (undefined local variable or method `candidate' for #<#<Class:0x007ff2a427b4a8>:0x007ff2a4f4ef68>):
+    1: <h1>Listing Candidates</h1>
+    2: 
+    3: <h3><%= candidate.max_vote_count %></h3>
+    4: 
+    5: <table>
+    6:   <tr>
+  app/views/candidates/index.html.erb:3:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063177680'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:15:52 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.1ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  Rendered candidates/index.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined local variable or method `candidate' for #<#<Class:0x007ff2a4c126b0>:0x007ff2a4c165d0>):
+    1: <h1>Listing Candidates</h1>
+    2: 
+    3: <h3><%= candidate.max_vote_count %></h3>
+    4: 
+    5: <table>
+    6:   <tr>
+  app/views/candidates/index.html.erb:3:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063177680'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:15:54 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.2ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  Rendered candidates/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `candidate' for #<#<Class:0x007ff2a4c126b0>:0x007ff2a4bdaa80>):
+    1: <h1>Listing Candidates</h1>
+    2: 
+    3: <h3><%= candidate.max_vote_count %></h3>
+    4: 
+    5: <table>
+    6:   <tr>
+  app/views/candidates/index.html.erb:3:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063177680'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:16:08 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.1ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  Rendered candidates/index.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined local variable or method `candidate' for #<#<Class:0x007ff2a418a5f8>:0x007ff2a44948e8>):
+    1: <h1>Listing Candidates</h1>
+    2: 
+    3: <h3><%= candidate.max_vote_count %></h3>
+    4: 
+    5: <table>
+    6:   <tr>
+  app/views/candidates/index.html.erb:3:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063177680'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:17:01 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.1ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  Rendered candidates/index.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined local variable or method `candidates' for #<#<Class:0x007ff2a4310f08>:0x007ff2a428dea0>):
+    1: <h1>Listing Candidates</h1>
+    2: 
+    3: <h3><%= candidates.max_vote_count %></h3>
+    4: 
+    5: <table>
+    6:   <tr>
+  app/views/candidates/index.html.erb:3:in `_app_views_candidates_index_html_erb___4072776377255248819_70340056474780'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:18:00 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (15.8ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  Rendered candidates/index.html.erb within layouts/application (91.3ms)
+Completed 500 Internal Server Error in 95ms
+
+ActionView::Template::Error (undefined method `percentage_of_votes' for #<Candidate id: 1, name: "Deb">):
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+    17:     <td><%= candidate.percentage_of_votes %></td>
+    18:     <% %>
+    19:     <% if voter_signed_in? or admin_signed_in? %>
+    20:       <td><%= link_to('Vote', candidate_path(candidate)) %></td>
+  app/views/candidates/index.html.erb:17:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:18:36 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.1ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  Rendered candidates/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `percentage_of_votes' for #<Candidate id: 1, name: "Deb">):
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+    17:     <td><%= candidate.percentage_of_votes %></td>
+    18:     <% %>
+    19:     <% if voter_signed_in? or admin_signed_in? %>
+    20:       <td><%= link_to('Vote', candidate_path(candidate)) %></td>
+  app/views/candidates/index.html.erb:17:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:19:48 -0400
+
+SyntaxError (/Users/qreid51/Documents/LearntoProgramTutorialExamples/Decision-Maker/app/helpers/candidate_helper.rb:15: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/candidates_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:20:20 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.1ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  Rendered candidates/index.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `percentage_of_votes' for #<Candidate id: 1, name: "Deb">):
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+    17:     <td><%= candidate.percentage_of_votes %></td>
+    18:     <% %>
+    19:     <% if voter_signed_in? or admin_signed_in? %>
+    20:       <td><%= link_to('Vote', candidate_path(candidate)) %></td>
+  app/views/candidates/index.html.erb:17:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:20:32 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.1ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  Rendered candidates/index.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `percentage_of_votes' for #<Candidate id: 1, name: "Deb">):
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+    17:     <td><%= candidate.percentage_of_votes %></td>
+    18:     <% %>
+    19:     <% if voter_signed_in? or admin_signed_in? %>
+    20:       <td><%= link_to('Vote', candidate_path(candidate)) %></td>
+  app/views/candidates/index.html.erb:17:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063204080'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (37.5ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (47.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:23:50 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.1ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35mVoter Load (16.4ms)[0m  SELECT "voters".* FROM "voters" WHERE "voters"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 3 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 4 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.1ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 5 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  Rendered candidates/index.html.erb within layouts/application (152.7ms)
+Completed 200 OK in 206ms (Views: 181.2ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-29 02:23:51 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-06-29 02:23:51 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-29 02:23:51 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-29 02:23:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-29 02:23:51 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:24:09 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  Rendered candidates/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `max_vote_count' for #<Candidate id: 1, name: "Deb">):
+    10:   </tr>
+    11: 
+    12: <% @candidates.each do |candidate| %>
+    13:   <h3><%= candidate.max_vote_count %></h3>
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+  app/views/candidates/index.html.erb:13:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340061468120'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340061468120'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.8ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (37.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:24:25 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.2ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  Rendered candidates/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `max_vote_count' for #<Candidate id: 1, name: "Deb">):
+    10:   </tr>
+    11: 
+    12: <% @candidates.each do |candidate| %>
+    13:   <h3><%= candidate.max_vote_count(candidate) %></h3>
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+  app/views/candidates/index.html.erb:13:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340063279040'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340063279040'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:24:30 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  Rendered candidates/index.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined local variable or method `candidates' for #<#<Class:0x007ff2a42c0238>:0x007ff2a4b62918>):
+    10:   </tr>
+    11: 
+    12: <% @candidates.each do |candidate| %>
+    13:   <h3><%= candidate.max_vote_count(candidates) %></h3>
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+  app/views/candidates/index.html.erb:13:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340060601340'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340060601340'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:24:39 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.2ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  Rendered candidates/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined local variable or method `candidates' for #<#<Class:0x007ff2a42c0238>:0x007ff2a4c25198>):
+    10:   </tr>
+    11: 
+    12: <% @candidates.each do |candidate| %>
+    13:   <h3><%= max_vote_count(candidates) %></h3>
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+  app/views/candidates/index.html.erb:13:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340061511920'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340061511920'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:24:44 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.3ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  Rendered candidates/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `each' for #<Candidate id: 1, name: "Deb">):
+    10:   </tr>
+    11: 
+    12: <% @candidates.each do |candidate| %>
+    13:   <h3><%= max_vote_count(candidate) %></h3>
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+  app/helpers/candidate_helper.rb:5:in `max_vote_count'
+  app/views/candidates/index.html.erb:13:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340061114960'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340061114960'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:25:27 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.2ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  Rendered candidates/index.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined local variable or method `candidates' for #<#<Class:0x007ff2a4e8b950>:0x007ff2a4ab2748>):
+    10:   </tr>
+    11: 
+    12: <% @candidates.each do |candidate| %>
+    13:   <h3><%= max_vote_count(candidate) %></h3>
+    14:   <tr>
+    15:     <td><%= candidate.name %></td>
+    16:     <td><%= candidate.votes_for %></td>
+  app/helpers/candidate_helper.rb:5:in `max_vote_count'
+  app/views/candidates/index.html.erb:13:in `block in _app_views_candidates_index_html_erb___4072776377255248819_70340060743360'
+  app/views/candidates/index.html.erb:12:in `each'
+  app/views/candidates/index.html.erb:12:in `_app_views_candidates_index_html_erb___4072776377255248819_70340060743360'
+  app/controllers/candidates_controller.rb:31:in `index'
+
+
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.4ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/qreid51/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (51.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:27:07 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35mVoter Load (0.2ms)[0m  SELECT "voters".* FROM "voters" WHERE "voters"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 3 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 4 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 5 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  Rendered candidates/index.html.erb within layouts/application (95.7ms)
+Completed 200 OK in 103ms (Views: 99.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-29 02:27:07 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-06-29 02:27:07 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-29 02:27:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-29 02:27:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-29 02:27:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:30:56 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35mVoter Load (0.1ms)[0m  SELECT "voters".* FROM "voters" WHERE "voters"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 3 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 4 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.1ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 5 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  Rendered candidates/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-29 02:30:56 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-06-29 02:30:56 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-29 02:30:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-29 02:30:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-29 02:30:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:31:15 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35mVoter Load (0.2ms)[0m  SELECT "voters".* FROM "voters" WHERE "voters"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 3 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 4 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.1ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 5 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  Rendered candidates/index.html.erb within layouts/application (70.2ms)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-29 02:31:15 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-06-29 02:31:15 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-29 02:31:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-29 02:31:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-29 02:31:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:31:51 -0400
+Processing by CandidatesController#index as HTML
+  [1m[35mCandidate Load (0.2ms)[0m  SELECT "candidates".* FROM "candidates" ORDER BY id ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.2ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35mVoter Load (0.2ms)[0m  SELECT "voters".* FROM "voters" WHERE "voters"."id" = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 3 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 4 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.2ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 5 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  Rendered candidates/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-29 02:31:51 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-06-29 02:31:51 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-29 02:31:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-29 02:31:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-29 02:31:51 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/voters/sign_out" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yPPvn/w+okvWjGkMeR7x497oneI6mQ2wYKs2G2hZzQg="}
+  [1m[35mVoter Load (0.2ms)[0m  SELECT "voters".* FROM "voters" WHERE "voters"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 248ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Processing by CandidatesController#index as HTML
+  [1m[36mCandidate Load (0.2ms)[0m  [1mSELECT "candidates".* FROM "candidates" ORDER BY id ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 1 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.3ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 3 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 4 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'
+  [1m[36mVote Load (0.1ms)[0m  [1mSELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "votes" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "votes" WHERE "votes"."voteable_id" = 5 AND "votes"."voteable_type" = 'Candidate' AND "votes"."vote" = 't'[0m
+  [1m[35mVote Load (0.1ms)[0m  SELECT "votes".* FROM "votes" WHERE "votes"."voteable_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "votes" [0m
+  Rendered candidates/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-29 02:32:11 -0400
+Served asset /application.js - 304 Not Modified (0ms)
