@@ -1,10 +1,12 @@
 <h1>Listing Candidates</h1>
 
+<h3><%= candidate.max_vote_count %>
+
 <table>
   <tr>
     <th>Candidate</th>
     <th>Amount of Votes</th>
-    <th></th>
+    <th>Percentage of Votes</th>
     <th></th>
   </tr>
 
@@ -12,7 +14,8 @@
   <tr>
     <td><%= candidate.name %></td>
     <td><%= candidate.votes_for %></td>
-    
+    <td><%= candidate.percentage_of_votes %>
+    <% %>
     <% if voter_signed_in? or admin_signed_in? %>
       <td><%= link_to('Vote', candidate_path(candidate)) %></td>
     <% end %>

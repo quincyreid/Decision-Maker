@@ -10,6 +10,14 @@
 
   <div>
     <div id="sign_in nav">
+      <% unless voter_signed_in? %>
+        <% if admin_signed_in? %>
+          Signed in as <%= current_admin.email %>
+          <%= link_to "Admin Sign out", destroy_admin_session_path, :method => :delete %>
+        <% else %>
+          <%= link_to "Admin Sign up", new_voter_registration_path %> or <%= link_to "Admin Sign in", new_admin_session_path %>
+        <% end %>
+      <% end %><br />
       <% unless admin_signed_in? %>
         <% if voter_signed_in? %>
           Signed in as <%= current_voter.email %>
@@ -18,16 +26,7 @@
           <%= link_to "Sign up", new_voter_registration_path %> or <%= link_to "Sign in", new_voter_session_path %>
         <% end %>
       <% end %>
-      <% unless voter_signed_in? %>
-        <% if admin_signed_in? %>
-          Signed in as <%= current_admin.email %>
-          <%= link_to "Admin Sign out", destroy_admin_session_path, :method => :delete %>
-        <% else %>
-          <%= link_to "Admin Sign up", new_voter_registration_path %> or <%= link_to "Admin Sign in", new_admin_session_path %>
-        <% end %>
-      <% end %>
-      
-        
+         
       
     </div>
   </div>
